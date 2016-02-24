@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1845C7691C7D614D001644BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C7681C7D614D001644BC /* main.m */; };
+		1845C76C1C7D614E001644BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C76B1C7D614E001644BC /* AppDelegate.m */; };
+		1845C76F1C7D614E001644BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C76E1C7D614E001644BC /* ViewController.m */; };
+		1845C7721C7D614E001644BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C7701C7D614E001644BC /* Main.storyboard */; };
+		1845C7741C7D614E001644BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1845C7731C7D614E001644BC /* Assets.xcassets */; };
+		1845C7771C7D614E001644BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C7751C7D614E001644BC /* LaunchScreen.storyboard */; };
+		1845C7821C7D614E001644BC /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C7811C7D614E001644BC /* _____Tests.m */; };
+		1845C78D1C7D614F001644BC /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C78C1C7D614F001644BC /* _____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1845C77E1C7D614E001644BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845C75C1C7D614D001644BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1845C7631C7D614D001644BC;
+			remoteInfo = "发邮件练习";
+		};
+		1845C7891C7D614F001644BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845C75C1C7D614D001644BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1845C7631C7D614D001644BC;
+			remoteInfo = "发邮件练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1845C7641C7D614D001644BC /* 发邮件练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "发邮件练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C7681C7D614D001644BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1845C76A1C7D614E001644BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1845C76B1C7D614E001644BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1845C76D1C7D614E001644BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1845C76E1C7D614E001644BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1845C7711C7D614E001644BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1845C7731C7D614E001644BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1845C7761C7D614E001644BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1845C7781C7D614E001644BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845C77D1C7D614E001644BC /* 发邮件练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "发邮件练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C7811C7D614E001644BC /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		1845C7831C7D614E001644BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845C7881C7D614F001644BC /* 发邮件练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "发邮件练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C78C1C7D614F001644BC /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		1845C78E1C7D614F001644BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1845C7611C7D614D001644BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C77A1C7D614E001644BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C7851C7D614E001644BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1845C75B1C7D614C001644BC = {
+			isa = PBXGroup;
+			children = (
+				1845C7661C7D614D001644BC /* 发邮件练习 */,
+				1845C7801C7D614E001644BC /* 发邮件练习Tests */,
+				1845C78B1C7D614F001644BC /* 发邮件练习UITests */,
+				1845C7651C7D614D001644BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1845C7651C7D614D001644BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1845C7641C7D614D001644BC /* 发邮件练习.app */,
+				1845C77D1C7D614E001644BC /* 发邮件练习Tests.xctest */,
+				1845C7881C7D614F001644BC /* 发邮件练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1845C7661C7D614D001644BC /* 发邮件练习 */ = {
+			isa = PBXGroup;
+			children = (
+				1845C76A1C7D614E001644BC /* AppDelegate.h */,
+				1845C76B1C7D614E001644BC /* AppDelegate.m */,
+				1845C76D1C7D614E001644BC /* ViewController.h */,
+				1845C76E1C7D614E001644BC /* ViewController.m */,
+				1845C7701C7D614E001644BC /* Main.storyboard */,
+				1845C7731C7D614E001644BC /* Assets.xcassets */,
+				1845C7751C7D614E001644BC /* LaunchScreen.storyboard */,
+				1845C7781C7D614E001644BC /* Info.plist */,
+				1845C7671C7D614D001644BC /* Supporting Files */,
+			);
+			path = "发邮件练习";
+			sourceTree = "<group>";
+		};
+		1845C7671C7D614D001644BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1845C7681C7D614D001644BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1845C7801C7D614E001644BC /* 发邮件练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1845C7811C7D614E001644BC /* _____Tests.m */,
+				1845C7831C7D614E001644BC /* Info.plist */,
+			);
+			path = "发邮件练习Tests";
+			sourceTree = "<group>";
+		};
+		1845C78B1C7D614F001644BC /* 发邮件练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1845C78C1C7D614F001644BC /* _____UITests.m */,
+				1845C78E1C7D614F001644BC /* Info.plist */,
+			);
+			path = "发邮件练习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1845C7631C7D614D001644BC /* 发邮件练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C7911C7D614F001644BC /* Build configuration list for PBXNativeTarget "发邮件练习" */;
+			buildPhases = (
+				1845C7601C7D614D001644BC /* Sources */,
+				1845C7611C7D614D001644BC /* Frameworks */,
+				1845C7621C7D614D001644BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "发邮件练习";
+			productName = "发邮件练习";
+			productReference = 1845C7641C7D614D001644BC /* 发邮件练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1845C77C1C7D614E001644BC /* 发邮件练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C7941C7D614F001644BC /* Build configuration list for PBXNativeTarget "发邮件练习Tests" */;
+			buildPhases = (
+				1845C7791C7D614E001644BC /* Sources */,
+				1845C77A1C7D614E001644BC /* Frameworks */,
+				1845C77B1C7D614E001644BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845C77F1C7D614E001644BC /* PBXTargetDependency */,
+			);
+			name = "发邮件练习Tests";
+			productName = "发邮件练习Tests";
+			productReference = 1845C77D1C7D614E001644BC /* 发邮件练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1845C7871C7D614E001644BC /* 发邮件练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C7971C7D614F001644BC /* Build configuration list for PBXNativeTarget "发邮件练习UITests" */;
+			buildPhases = (
+				1845C7841C7D614E001644BC /* Sources */,
+				1845C7851C7D614E001644BC /* Frameworks */,
+				1845C7861C7D614E001644BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845C78A1C7D614F001644BC /* PBXTargetDependency */,
+			);
+			name = "发邮件练习UITests";
+			productName = "发邮件练习UITests";
+			productReference = 1845C7881C7D614F001644BC /* 发邮件练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1845C75C1C7D614D001644BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1845C7631C7D614D001644BC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1845C77C1C7D614E001644BC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1845C7631C7D614D001644BC;
+					};
+					1845C7871C7D614E001644BC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1845C7631C7D614D001644BC;
+					};
+				};
+			};
+			buildConfigurationList = 1845C75F1C7D614D001644BC /* Build configuration list for PBXProject "发邮件练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1845C75B1C7D614C001644BC;
+			productRefGroup = 1845C7651C7D614D001644BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1845C7631C7D614D001644BC /* 发邮件练习 */,
+				1845C77C1C7D614E001644BC /* 发邮件练习Tests */,
+				1845C7871C7D614E001644BC /* 发邮件练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1845C7621C7D614D001644BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C7771C7D614E001644BC /* LaunchScreen.storyboard in Resources */,
+				1845C7741C7D614E001644BC /* Assets.xcassets in Resources */,
+				1845C7721C7D614E001644BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C77B1C7D614E001644BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C7861C7D614E001644BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1845C7601C7D614D001644BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C76F1C7D614E001644BC /* ViewController.m in Sources */,
+				1845C76C1C7D614E001644BC /* AppDelegate.m in Sources */,
+				1845C7691C7D614D001644BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C7791C7D614E001644BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C7821C7D614E001644BC /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C7841C7D614E001644BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C78D1C7D614F001644BC /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1845C77F1C7D614E001644BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1845C7631C7D614D001644BC /* 发邮件练习 */;
+			targetProxy = 1845C77E1C7D614E001644BC /* PBXContainerItemProxy */;
+		};
+		1845C78A1C7D614F001644BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1845C7631C7D614D001644BC /* 发邮件练习 */;
+			targetProxy = 1845C7891C7D614F001644BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1845C7701C7D614E001644BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1845C7711C7D614E001644BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1845C7751C7D614E001644BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1845C7761C7D614E001644BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1845C78F1C7D614F001644BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1845C7901C7D614F001644BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1845C7921C7D614F001644BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "发邮件练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guanyi.first.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1845C7931C7D614F001644BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "发邮件练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guanyi.first.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1845C7951C7D614F001644BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "发邮件练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guanyi.first.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/发邮件练习.app/发邮件练习";
+			};
+			name = Debug;
+		};
+		1845C7961C7D614F001644BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "发邮件练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guanyi.first.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/发邮件练习.app/发邮件练习";
+			};
+			name = Release;
+		};
+		1845C7981C7D614F001644BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "发邮件练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guanyi.first.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "发邮件练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1845C7991C7D614F001644BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "发邮件练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guanyi.first.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "发邮件练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1845C75F1C7D614D001644BC /* Build configuration list for PBXProject "发邮件练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C78F1C7D614F001644BC /* Debug */,
+				1845C7901C7D614F001644BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845C7911C7D614F001644BC /* Build configuration list for PBXNativeTarget "发邮件练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C7921C7D614F001644BC /* Debug */,
+				1845C7931C7D614F001644BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1845C7941C7D614F001644BC /* Build configuration list for PBXNativeTarget "发邮件练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C7951C7D614F001644BC /* Debug */,
+				1845C7961C7D614F001644BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1845C7971C7D614F001644BC /* Build configuration list for PBXNativeTarget "发邮件练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C7981C7D614F001644BC /* Debug */,
+				1845C7991C7D614F001644BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1845C75C1C7D614D001644BC /* Project object */;
+}
