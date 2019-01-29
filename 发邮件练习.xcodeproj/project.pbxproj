@@ -19,7 +19,6 @@
 		1845C7771C7D614E001644BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C7751C7D614E001644BC /* LaunchScreen.storyboard */; };
 		1845C7821C7D614E001644BC /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C7811C7D614E001644BC /* _____Tests.m */; };
 		1845C78D1C7D614F001644BC /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1845C78C1C7D614F001644BC /* _____UITests.m */; };
-		18E7B8581C7F094400A7701D /* test01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18E7B8571C7F094400A7701D /* test01.mp4 */; };
 		18E7B85A1C7F0AED00A7701D /* 20119.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18E7B8591C7F0AED00A7701D /* 20119.mp4 */; };
 		1FA2BBCBFC82E6EE8F197D58 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F44950B7F2B9A67331CE97 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -65,7 +64,6 @@
 		1845C7881C7D614F001644BC /* 发邮件练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "发邮件练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1845C78C1C7D614F001644BC /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1845C78E1C7D614F001644BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E7B8571C7F094400A7701D /* test01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test01.mp4; sourceTree = "<group>"; };
 		18E7B8591C7F0AED00A7701D /* 20119.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20119.mp4; sourceTree = "<group>"; };
 		3FE8D1485FA771A4A645E90D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		888F9DB95DEDEE93C31913FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				18E7B8591C7F0AED00A7701D /* 20119.mp4 */,
-				18E7B8571C7F094400A7701D /* test01.mp4 */,
 				18204DE81C7DA91800DA7C57 /* test.png */,
 				180E6DB61C7ED38E00B44E94 /* test.vcf */,
 				1845C7681C7D614D001644BC /* main.m */,
@@ -297,7 +294,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E7B8581C7F094400A7701D /* test01.mp4 in Resources */,
 				1845C7771C7D614E001644BC /* LaunchScreen.storyboard in Resources */,
 				18204DE91C7DA91800DA7C57 /* test.png in Resources */,
 				18E7B85A1C7F0AED00A7701D /* 20119.mp4 in Resources */,
